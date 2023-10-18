@@ -58,8 +58,8 @@ require (
 	golang.org/x/sys v0.11.0
 	golang.org/x/text v0.12.0
 	google.golang.org/api v0.138.0
-	google.golang.org/genproto v0.0.0-20230803162519-f966b187b2e5
-	google.golang.org/grpc v1.57.0
+	google.golang.org/genproto v0.0.0-20230822172742-b8732ec3820d
+	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/retry.v1 v1.0.3
 	gopkg.in/yaml.v2 v2.4.0
@@ -74,7 +74,7 @@ require (
 require dario.cat/mergo v1.0.0 // indirect
 
 require (
-	cloud.google.com/go v0.110.6 // indirect
+	cloud.google.com/go v0.110.7 // indirect
 	cloud.google.com/go/compute v1.23.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	cloud.google.com/go/iam v1.1.1 // indirect
@@ -109,8 +109,8 @@ require (
 	github.com/docker/distribution v2.8.2+incompatible // indirect
 	github.com/docker/docker v24.0.5+incompatible // indirect; but required to resolve issue docker has with go1.20
 	github.com/docker/go-units v0.5.0 // indirect
-	github.com/envoyproxy/go-control-plane v0.11.1-0.20230524094728-9239064ad72f // indirect
-	github.com/envoyproxy/protoc-gen-validate v0.10.1 // indirect
+	github.com/envoyproxy/go-control-plane v0.11.1 // indirect
+	github.com/envoyproxy/protoc-gen-validate v1.0.2 // indirect
 	github.com/felixge/httpsnoop v1.0.2 // indirect
 	github.com/goccy/go-json v0.9.11 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -155,10 +155,10 @@ require (
 	github.com/zeebo/xxh3 v1.0.2 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/crypto v0.12.0 // indirect
-	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/tools v0.9.1 // indirect
+	golang.org/x/mod v0.11.0 // indirect
+	golang.org/x/tools v0.10.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20230803162519-f966b187b2e5 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230807174057-1744710a1577 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20230822172742-b8732ec3820d // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
 )
